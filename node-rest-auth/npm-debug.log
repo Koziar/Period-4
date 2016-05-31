@@ -1,0 +1,187 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'requiresafe' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.6
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'requiresafe', null ]
+7 verbose cache add spec requiresafe
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'requiresafe',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'requiresafe',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed requiresafe@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for requiresafe
+11 info addNameTag [ 'requiresafe', 'latest' ]
+12 silly mapToRegistry name requiresafe
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/requiresafe
+16 verbose addNameTag registry:https://registry.npmjs.org/requiresafe not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/requiresafe
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 6:02:36 PM
+20 verbose request id 575d67c43554fa56
+21 http request GET https://registry.npmjs.org/requiresafe
+22 http 200 https://registry.npmjs.org/requiresafe
+23 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   etag: '"AZ9GIR6OXMZD4VVEX7RR117TW"',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'content-encoding': 'gzip',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'content-length': '7702',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Tue, 31 May 2016 16:02:30 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-ams4136-AMS',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1464710550.597592,VS0,VE191',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"AZ9GIR6OXMZD4VVEX7RR117TW"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'content-encoding': 'gzip',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '7702',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Tue, 31 May 2016 16:02:30 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-ams4136-AMS',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1464710550.597592,VS0,VE191',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose get saving requiresafe to /Users/Luke/.npm/registry.npmjs.org/requiresafe/.cache.json
+26 silly addNameTag next cb for requiresafe with tag latest
+27 silly addNamed requiresafe@2.3.1
+28 verbose addNamed "2.3.1" is a plain semver version for requiresafe
+29 warn deprecated requiresafe@2.3.1: please update to use nsp@2.0.0 or greater
+30 silly mapToRegistry name requiresafe
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/requiresafe
+34 verbose addRemoteTarball https://registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz',
+35 verbose addRemoteTarball   'b295e64ded1f39349e484c6b6f18ff663544d953' ]
+36 info retry fetch attempt 1 at 6:02:36 PM
+37 info attempt registry request try #1 at 6:02:36 PM
+38 http fetch GET https://registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz
+39 http fetch 200 https://registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz
+40 silly fetchAndShaCheck shasum b295e64ded1f39349e484c6b6f18ff663544d953
+41 verbose addTmpTarball /var/folders/xg/4wjwryds5d751btwy3ccmb300000gn/T/npm-31581-7576f113/registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for requiresafe@2.3.1
+43 silly cache afterAdd requiresafe@2.3.1
+44 verbose afterAdd /Users/Luke/.npm/requiresafe/2.3.1/package/package.json not in flight; writing
+45 verbose afterAdd /Users/Luke/.npm/requiresafe/2.3.1/package/package.json written
+46 silly install resolved [ { name: 'requiresafe',
+46 silly install resolved     description: 'the requiresafe.com command line interface tool',
+46 silly install resolved     version: '2.3.1',
+46 silly install resolved     author: { name: '^lift security' },
+46 silly install resolved     bin: { requiresafe: 'bin/requiresafe' },
+46 silly install resolved     dependencies:
+46 silly install resolved      { 'requiresafe-npm-utils': '^2.5.3',
+46 silly install resolved        chalk: '^1.1.1',
+46 silly install resolved        'cli-table': '^0.3.1',
+46 silly install resolved        'https-proxy-agent': '^1.0.0',
+46 silly install resolved        joi: '^6.9.1',
+46 silly install resolved        rc: '^1.1.2',
+46 silly install resolved        semver: '^5.0.3',
+46 silly install resolved        subcommand: '^2.0.3',
+46 silly install resolved        wreck: '^6.3.0' },
+46 silly install resolved     devDependencies:
+46 silly install resolved      { code: '^1.5.0',
+46 silly install resolved        'eslint-config-requiresafe': '^1.0.0',
+46 silly install resolved        'git-validate': '^2.1.0',
+46 silly install resolved        lab: '^6.1.0',
+46 silly install resolved        nock: '^2.15.0',
+46 silly install resolved        shrinkydink: '^1.0.0' },
+46 silly install resolved     keywords: [ 'security', 'requiresafe' ],
+46 silly install resolved     license: 'Apache-2.0',
+46 silly install resolved     main: 'lib/index.js',
+46 silly install resolved     repository: { type: 'git', url: 'git://github.com/requiresafe/cli.git' },
+46 silly install resolved     scripts:
+46 silly install resolved      { 'setup-offline': 'curl -sS https://api.requiresafe.com/advisories -o advisories.json',
+46 silly install resolved        test: 'lab -a code -L -t 100',
+46 silly install resolved        requiresafe: 'bin/requiresafe check',
+46 silly install resolved        shrinkwrap: 'npm shrinkwrap && shrinkydink' },
+46 silly install resolved     'pre-commit': [ 'test' ],
+46 silly install resolved     gitHead: '80b86a7c4d98173509aa4cc21334b98f0d170682',
+46 silly install resolved     bugs: { url: 'https://github.com/requiresafe/cli/issues' },
+46 silly install resolved     homepage: 'https://github.com/requiresafe/cli#readme',
+46 silly install resolved     _id: 'requiresafe@2.3.1',
+46 silly install resolved     _shasum: 'b295e64ded1f39349e484c6b6f18ff663544d953',
+46 silly install resolved     _from: 'requiresafe@latest',
+46 silly install resolved     _npmVersion: '3.3.8',
+46 silly install resolved     _nodeVersion: '4.1.1',
+46 silly install resolved     _npmUser: { name: 'nlf', email: 'quitlahok@gmail.com' },
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'b295e64ded1f39349e484c6b6f18ff663544d953',
+46 silly install resolved        tarball: 'https://registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz' },
+46 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+46 silly install resolved     deprecated: 'please update to use nsp@2.0.0 or greater',
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/requiresafe/-/requiresafe-2.3.1.tgz' } ]
+47 info install requiresafe@2.3.1 into /usr/local/lib
+48 info installOne requiresafe@2.3.1
+49 verbose installOne of requiresafe to /usr/local/lib not in flight; installing
+50 verbose lock using /Users/Luke/.npm/_locks/requiresafe-939cd4042f5cd653.lock for /usr/local/lib/node_modules/requiresafe
+51 silly install write writing requiresafe 2.3.1 to /usr/local/lib/node_modules/requiresafe
+52 verbose unbuild lib/node_modules/requiresafe
+53 silly gentlyRm /usr/local/lib/node_modules/requiresafe is being purged from base /usr/local
+54 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/requiresafe
+55 verbose tar unpack /Users/Luke/.npm/requiresafe/2.3.1/package.tgz
+56 verbose tar unpacking to /usr/local/lib/node_modules/requiresafe
+57 silly gentlyRm /usr/local/lib/node_modules/requiresafe is being purged
+58 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/requiresafe
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 error tar.unpack untar error /Users/Luke/.npm/requiresafe/2.3.1/package.tgz
+61 verbose unlock done using /Users/Luke/.npm/_locks/requiresafe-939cd4042f5cd653.lock for /usr/local/lib/node_modules/requiresafe
+62 verbose fstream_path /usr/local/lib/node_modules/requiresafe
+63 verbose fstream_type Directory
+64 verbose fstream_class DirWriter
+65 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/requiresafe'
+65 verbose stack     at Error (native)
+66 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+66 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+66 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+67 verbose cwd /Users/Luke/GitProjects/Period-4/node-rest-auth
+68 error Darwin 15.4.0
+69 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "requiresafe"
+70 error node v4.2.6
+71 error npm  v2.14.12
+72 error path /usr/local/lib/node_modules/requiresafe
+73 error code EACCES
+74 error errno -13
+75 error syscall mkdir
+76 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/requiresafe'
+76 error     at Error (native)
+76 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/requiresafe']
+76 error   errno: -13,
+76 error   code: 'EACCES',
+76 error   syscall: 'mkdir',
+76 error   path: '/usr/local/lib/node_modules/requiresafe',
+76 error   fstream_type: 'Directory',
+76 error   fstream_path: '/usr/local/lib/node_modules/requiresafe',
+76 error   fstream_class: 'DirWriter',
+76 error   fstream_stack:
+76 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+76 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+76 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+77 error Please try running this command again as root/Administrator.
+78 verbose exit [ -13, true ]
+79 verbose unbuild lib/node_modules/requiresafe
+80 silly gentlyRm /usr/local/lib/node_modules/requiresafe is being purged from base /usr/local
+81 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/requiresafe

@@ -1,5 +1,6 @@
 /*
-    Explain basic security terms like authentication, authorization, confidentiality, integrity, SSL/TLS and provide examples of how you have used them.
+    Explain basic security terms like authentication, authorization, confidentiality, integrity,
+    SSL/TLS and provide examples of how you have used them.
  */
 /*
     Authentication, is the process of identifying an individual in a system, usually by password and username.
